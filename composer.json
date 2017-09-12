@@ -1,0 +1,19 @@
+{
+    "name": "oizdar/communication-standard",
+    "description": "consistent communication standard used in REST applications",
+    "authors": [
+        {
+            "name": "Radosław Malinowski",
+            "email": "malinowski.rad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eden\\ComunicationStandard": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/http-kernel": "^3.3"
+    }
+}
