@@ -1,6 +1,7 @@
 {
     "name": "oizdar/communication-standard",
     "description": "consistent communication standard used in REST applications",
+    "license": "MIT",
     "authors": [
         {
             "name": "Radosław Malinowski",
@@ -9,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Eden\\ComunicationStandard": "src/"
+            "oizdar\\ComunicationStandard\\": "src/"
         }
     },
     "require": {
